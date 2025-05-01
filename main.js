@@ -25,3 +25,14 @@ const luckyNumbers = [3, 7, 9, 14, 21, 25];
 
 //Create function to randomly select components
 const getRandomElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+//Generate message
+const generateMessage = () => {
+  const sign = getRandomElement(signs);
+  const mood = getRandomElement(moods);
+  const luckyNumber = getRandomElement(luckyNumbers);
+
+  return `Your zodiac sign is ${sign}. You are feeling ${mood} today. Your lucky number is ${luckyNumber}.`;
+};
+
+console.log(generateMessage());
