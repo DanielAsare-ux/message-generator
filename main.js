@@ -24,3 +24,4 @@ const moods = [
 const luckyNumbers = [3, 7, 9, 14, 21, 25];
 
 //Create function to randomly select components
+const getRandomElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
