@@ -1,18 +1,13 @@
-# 🎲 Random Message Generator
+# message-generator
 
-This is a simple JavaScript project that generates a **new, random message** every time it's run using Node.js. It's designed as a fun way to practice working with functions, arrays, and randomness in JavaScript — and to get used to local development, Git, and GitHub workflows.
+Generates a random message — zodiac sign, mood, and lucky number — each time it runs.
 
----
+## Usage
 
-## 📝 Project Description
+```bash
+node main.js
+```
 
-This message generator combines randomized message components to create unique outputs every time. You can customize it to generate:
+## Tech Stack
 
-- 🌟 Inspirational quotes
-- 🔮 Horoscopes or fortunes
-- 😂 Nonsensical jokes
-- 💬 Developer messages
-- 🧠 Random trivia
-
----
-
+Node.js, vanilla JavaScript.
